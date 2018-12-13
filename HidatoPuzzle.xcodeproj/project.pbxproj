@@ -25,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		F102E6B921C20D2C0064087D /* HidatoGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HidatoGenerator.cpp; sourceTree = "<group>"; };
+		F102E6BC21C20E5C0064087D /* GeInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GeInput.txt; sourceTree = "<group>"; };
+		F102E6BD21C20E5C0064087D /* SoInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SoInput.txt; sourceTree = "<group>"; };
 		F159742B219F201400DA37D6 /* HidatoPuzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HidatoPuzzle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F159742E219F201400DA37D6 /* HidatoSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HidatoSolver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +61,8 @@
 		F159742D219F201400DA37D6 /* HidatoPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				F102E6BC21C20E5C0064087D /* GeInput.txt */,
+				F102E6BD21C20E5C0064087D /* SoInput.txt */,
 				F159742E219F201400DA37D6 /* HidatoSolver.cpp */,
 				F102E6B921C20D2C0064087D /* HidatoGenerator.cpp */,
 			);
