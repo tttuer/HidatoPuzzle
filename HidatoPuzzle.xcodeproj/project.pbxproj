@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F159742F219F201400DA37D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F159742E219F201400DA37D6 /* main.cpp */; };
+		F102E6BB21C20D2C0064087D /* HidatoGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F102E6B921C20D2C0064087D /* HidatoGenerator.cpp */; };
+		F159742F219F201400DA37D6 /* HidatoSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F159742E219F201400DA37D6 /* HidatoSolver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F102E6B921C20D2C0064087D /* HidatoGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HidatoGenerator.cpp; sourceTree = "<group>"; };
 		F159742B219F201400DA37D6 /* HidatoPuzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HidatoPuzzle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F159742E219F201400DA37D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F159742E219F201400DA37D6 /* HidatoSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HidatoSolver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		F159742D219F201400DA37D6 /* HidatoPuzzle */ = {
 			isa = PBXGroup;
 			children = (
-				F159742E219F201400DA37D6 /* main.cpp */,
+				F159742E219F201400DA37D6 /* HidatoSolver.cpp */,
+				F102E6B921C20D2C0064087D /* HidatoGenerator.cpp */,
 			);
 			path = HidatoPuzzle;
 			sourceTree = "<group>";
@@ -118,7 +121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F159742F219F201400DA37D6 /* main.cpp in Sources */,
+				F102E6BB21C20D2C0064087D /* HidatoGenerator.cpp in Sources */,
+				F159742F219F201400DA37D6 /* HidatoSolver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
